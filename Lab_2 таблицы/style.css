@@ -1,0 +1,34 @@
+.table1
+ {
+ border: rgb(169,226,204) 1pt solid;
+border-collapse: collapse; 
+padding: 5pt;
+}
+#caption1 {
+	color: #f3cd26; font-size: 32pt; padding: 5pt;
+}
+#table1 {
+   background-color:#e1eff9; 
+}
+table {
+font-Family: arial;
+}
+
+.table2_1
+ {
+width:300px;
+ border: #ff9a00 1pt solid;
+border-collapse: collapse; 
+padding: 8px;
+text-align:left;
+vertical-align:top;
+}
+.table2_2
+ {
+	
+padding:9px 7px;
+border: #ff9a00 1pt solid;
+border-collapse: collapse; 
+background-color: #dedfde;
+vertical-align:top;
+ }

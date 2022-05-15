@@ -1,0 +1,54 @@
+body {
+	font-family:arial;
+}
+#b {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+div{
+	
+}
+
+#dom {
+	width:500px;
+	
+	height:500px;
+	position: absolute;
+	top:0; left:0; bottom:0; right:0;
+	margin:auto;
+}
+
+span {
+	display:block;
+	
+}
+#d1, #d2, #d4{
+	margin: 0 0 0 38px;
+}
+#d5 {
+	margin: 0 0 0 282px;
+}
+
+#S {
+	text-align:center;
+	font-size:8pt;
+	position:absolute;
+	bottom:60px;
+}
+#copy {
+	text-align:center;
+	font-size:9pt;
+	position:absolute;
+	bottom:10px; left: 85px;
+	color:#91949e;
+}
+
+a:visited {
+	color: #a08d84;
+}
+a {
+	color:#b83448;
+}

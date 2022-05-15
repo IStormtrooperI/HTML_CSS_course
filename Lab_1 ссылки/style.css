@@ -1,0 +1,60 @@
+#img1{
+	width:100px;
+}
+#img2{
+	width:200px;
+	float:right;
+}
+.h2RED{
+	color:	#ba0018;
+}
+#green{
+	color:#008000;
+}
+#blue{
+	color:#0000ff;
+}
+#body1{
+background: #EFFFFF;
+}
+h2 {
+	text-align:center;
+}
+.Domoi {
+	text-align:center;
+	color: #808080;
+}
+#D1G:visited{
+color: #800000;
+}
+#ul1 {
+list-style-type: square;
+}
+#ul2 {
+list-style-type: circle;
+}
+#ol1{
+list-style-type: upper-roman;
+}
+#a1 {
+	text-decoration: none;
+	color: #b90000;
+}
+#body2 {
+	background:#ffffcc;
+}
+#body3 {
+	background:#ccffcc;
+}
+#h2G {
+	color: #006563;
+}
+#h3G1 {
+	color: #0bcc62;
+}
+#h3G2 {
+	color:#8b0088;
+}
+#h3G3 {
+	color: #895212;
+}

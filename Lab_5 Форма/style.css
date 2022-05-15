@@ -1,0 +1,102 @@
+#z1 {
+	width:67px;
+	height:25px;
+	background-position: 0 0;
+	background: url("txt/product-common-sprite.png");
+	position:absolute;
+	left: 50px;
+	top: 30px;
+}
+
+body {
+	background-color:#eeeeee;
+	font-family:arial;
+}
+
+#s1 {
+	color:#4779a7;
+	font-size: 22pt;
+	font-weight:530;
+	position:absolute;
+	left: 190px;
+	top: 25px;
+}
+.div1 {
+	border: 1px #d1d1d1 solid;
+	border-radius: 6px;
+}
+.li1 {
+	cursor:pointer;
+	color:white;
+	background-color:#297fb8;
+	border-radius: 5px 5px 0 0;
+	padding: 5px 0 3px 4px;
+}
+.sr {
+	border: 0;
+	color:white;
+	background-color:#297fb8;
+	border-radius: 2px;
+	padding: 5px 15px;
+}
+.li2, .li3 {
+	cursor:pointer;
+	display:block;
+	color:#8d8b92;
+	list-style-type: none;
+	padding: 5px 0 2px 8px;
+	background-color:white;
+}
+.li3 {
+	border-radius: 0 0 5px 5px;
+}
+.li2:hover, .li3:hover {
+	color:white;
+	background-color:#297fb8;
+}
+#list {
+	position:absolute;
+	top: 58px; left:-15px;
+	width: 200px;
+	height: 500px;
+}
+#f1 {
+	background-color:white;
+
+	border-radius:7px;
+	width:630px; height:520px;
+	position:absolute;
+	top:80px; left: 210px;
+}
+#H1 {
+	color:#4779a7;
+	padding-left:20px;
+}
+fieldset {
+	border:1px solid #9e4c4a;
+	border-radius:8px;
+	margin: 10px 25px 0 25px;
+	padding: 15px 0 5px 10px;
+}
+.inp {
+	margin:5px 30px 10px 0;
+}
+input {
+	margin: 5px 8px 10px 8px;
+}
+.contactdiv {
+	display:inline-block;
+}
+legend {
+	color:#928981;
+}
+.co, #col1 {
+	margin-left: 20px;
+}
+textarea {
+	min-height:80px; max-height:80px;
+	min-width:190px; max-width:190px;
+}
+label, .inp, select{
+	display:block;
+}

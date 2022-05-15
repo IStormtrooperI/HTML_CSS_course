@@ -1,0 +1,123 @@
+<html>
+
+<head>
+<title>Форма</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<div id="z1"></div> <!--Спрайт-->
+<span id="s1">
+Zoo Keeper Application
+</span>
+
+<div id="list">
+<ul>
+<div class="div1">
+<li class="li1">Products</li>
+<li class="li2">Products</li>
+<li class="li2">Services</li>
+<li class="li3">Feedback</li>
+</div>
+</ul>
+
+<ul>
+<div class="div1">
+<li class="li1">Reports</li>
+<li class="li2">Assigned Issues</li>
+<li class="li3">Summary View</li>
+</div>
+</ul>
+
+<ul>
+<div class="div1">
+<li class="li1">Info</li>
+<li class="li2">Home</li>
+<li class="li2">Articles</li>
+<li class="li3">About us</li>
+</div>
+</ul>
+</div>
+
+<form id="f1">
+
+<p id="H1">Please complete the form.</p>
+
+<fieldset>
+<legend>Contact Details</legend>
+
+<div class="co">
+
+<div class="contactdiv">
+<label>Name<input type="text" name="Name" placeholder="Иван Топорышкин" class="inp"></label>
+</div>
+
+<div class="contactdiv">
+<label>Telephone<input type="tel" name="Telephone" placeholder="89955566893" class="inp"></label>
+</div>
+
+<div class="contactdiv">
+<label>Email<input type="email" name="Email" placeholder="smbody@mail.ru" class="inp"></label>
+</div>
+
+<div class="contactdiv">
+<label>Web site<input type="url" name="WebSite" placeholder="www.site.ru" class="inp"></label>
+</div>
+
+</div>
+
+</fieldset>
+
+<fieldset>
+<legend>Person Details</legend>
+
+<div class="co">
+
+<div class="contactdiv">
+<label>Birthday<input type="date" name="date1" class="inp"></label>
+</div>
+
+<div class="contactdiv">
+<label>Gender<select class="inp">
+<option>Male</option>
+<option>Female</option>
+<option>Helicopter</option>
+</select></label>
+</div>
+
+<div class="contactdiv">
+<label>Registration date<input type="text" name="date2" placeholder="06.02.2016" class="inp"></label>
+</div>
+
+<label>When did you first know you wanted to be a zoo-keeper?<textarea class="inp">
+</textarea></label>
+
+<div class="contactdiv">
+<label>Pick Your Favorite Animals<div>
+<input type="checkbox" name="c1" value="Dog">Dog
+<input type="checkbox" name="c2" value="Cat">Cat
+<input type="checkbox" name="c3" value="Turtle">Turtle
+<input type="checkbox" name="c4" value="Fish">Fish
+<input type="checkbox" name="c5" value="Parrot">Parrot
+<input type="checkbox" name="c6" value="Canary">Canary
+</div></label>
+</div>
+
+<div class="contactdiv" id="col1">
+<label>Color of Pet<input type="color" name="color" class="inp"></label>
+</div>
+
+</div>
+</fieldset>
+
+<div class="co">
+<input type="submit" value="Submit" class="sr">
+<input type="reset" value="Reset" class="sr"> 
+</div>
+
+</form>
+
+
+</body>
+</html>

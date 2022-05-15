@@ -1,0 +1,152 @@
+@font-face {
+	font-family: Open Sans;
+	src: url(txt/opensans/OpenSans-Light.ttf);
+}
+body {
+	font-family:arial;
+}
+header {
+	position:fixed;
+	z-index:2;
+	background-color:white;
+	left:0; top:0;
+	width: 100%;
+	height: 80px;
+	box-shadow:	0 0 0 1px #aeaeae,
+				0 0 0 2px #c0c0c0,
+				0 0 0 3px #d8d8d8,
+				0 0 0 4px #e0e0e0,
+				0 0 0 5px #e7e7e7;
+}
+.b, .kup {
+	background: linear-gradient( to top, #f25e2e, #f7941e);
+	border-radius:4px;
+	color:white;
+	border:0;
+	font-family: Open Sans;
+}
+#cat {
+	position:absolute;
+	display:inline-block;
+	top:15px; left:45px;
+}
+#catalog {
+	position:absolute;
+	top:15px; left:30px;
+	width:220px;
+	padding: 17px 19px 17px 45px;
+}
+#menu {
+	float:right;
+}
+#search {
+	position:absolute;
+	height:50px; width:700px;
+	top:15px; left:270px;
+	border-radius: 4px 0 0 4px;
+	padding-left:20px;
+	border-right:0;
+}
+#submit {
+	position:absolute;
+	top:15px; left:970px;
+	border-radius:0 4px 4px 0;
+	padding: 17px 40px 18px 40px;
+}
+.sil {
+	position:absolute;
+	top:25px;
+	width:200px;
+}
+#kab {
+	left:1170px;
+}
+#kor {
+	left:1370px;
+}
+.mh {
+	position:absolute;
+	top:7px;
+	margin-left:20px;
+	color:#69747a;
+	font-size:10pt;
+}
+#mid {
+	position:absolute;
+	top:80px; left:0;
+	width:100%;
+	height:95%;
+	padding: 5px 0 35px 35px;
+}
+#ph {
+	font-weight:bold;
+	font-size:19pt;
+	margin:0 0 20px 0;
+}
+a {
+	text-decoration:none;
+}
+.as {
+	border-bottom: 1px #69747a solid;
+	padding-bottom:1px;
+	margin-right:30px;
+	font-size:11pt;
+	color:#69747a;
+}
+table {
+	margin-top:20px;
+}
+.t1 {
+	border: #e7e7e7 1pt solid;
+	border-collapse: collapse; 
+}
+.t2 {
+	padding:20px;
+}
+#cam {
+	width:240px;
+	margin-right:50px;
+}
+#t3 {
+	display:inline-block;
+}
+.t4 {
+	border-bottom: 1pt orange solid;
+	color:black;
+}
+.bold {
+	font-weight:bold;
+}
+.op1 {
+	font-size:11pt;
+	display:inline-block;
+	width:250px;
+}
+.op2 {
+	margin:0 10px 0 100px;
+	font-size:11pt;
+	display:inline-block;
+}
+.p1 {
+	margin: 0 0 10px 0;
+}
+.kup {
+	margin-top:10px;
+	padding: 10px 35px;
+}
+
+#op21 {
+	position:relative;
+	bottom:40px;
+}
+#bes {
+	font-size:9pt;
+	position:absolute;
+	padding:5px 10px;
+	left:110px; top: 565px;
+	z-index:2;
+	background-color:#a9cf46;
+}
+.pd { 
+line-height:5pt;
+}

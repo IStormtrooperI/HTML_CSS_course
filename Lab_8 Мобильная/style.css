@@ -1,0 +1,104 @@
+
+@media (min-width:600px) { /* Полноэкранный режим */
+	body {
+		background:url(images/bg-illu4.jpg);
+		font-size:20pt;
+	}
+	#dom {
+		width:600px; height:600px;
+	}
+	.d1, .d2, .d3, #d4 {
+		display:inline-block;
+		color:white;
+		text-align:center;
+		width:200px; height:170px;
+		float:left;
+	}
+	.d1, .d2, .d3, #d4 {
+		padding-top:30px;
+	}
+	img {
+		width:150px;
+		margin-bottom:15px;
+	}
+	p {
+		margin:0;
+	}
+	#d4 {
+		font-size:10pt;
+	}
+	#d5 {
+		font-size:8pt;
+	}
+	#d6 {
+		height:18px;
+	}
+}
+
+
+@media (max-width:600px) { /* Телефон */
+	body {
+		background:url(images/bg-illu1.jpg);
+	}
+	#d6, #d7 {
+		display:none;
+	}
+	img {
+		position:relative;
+		top:-7px;
+		width:105px;
+	}
+	.d1, .d2, .d3, #d4 {
+		text-align:center;
+		color:white;
+		height:40px;
+		padding-top:5px;
+		margin-bottom:20px;
+	}
+	#ref {
+		margin-bottom:0;
+	}
+	p {
+		display:inline;
+	}
+	#dom {
+		height:545px;
+		width:300px;
+	}
+	#d8 {
+		margin:0;
+	}
+}
+
+
+body {
+	-webkit-user-select: none; -khtml-user-select:none; -moz-user-select:none; -ms-user-select:none;
+	font-family:Verdana;
+	background-size:100% 100%;
+}
+#dom {
+	position: absolute;
+	top:0; left:0; bottom:0; right:0;
+	margin:auto;
+}
+.d1 {
+	background-color:#880088;
+}
+.d1:hover {
+	background-color:#884488;
+}
+.d2 {
+	background-color:#000088;
+}
+.d2:hover {
+	background-color:#444488;
+}
+.d3 {
+	background-color:#880000;
+}
+.d3:hover {
+	background-color:#884444;
+}
+.d1, .d2, .d3 {
+	cursor:pointer;
+}
